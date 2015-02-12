@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: siddr
-Donate link: http://siddharthashok.com/
 Tags: language, type, plugin, comments
 Requires at least: 3.0.1
 Tested up to: 4.0.1
