@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 /*
 Plugin Name: Type it Local
 Plugin URI: http://github.com/siddharthashok/typeitlocal
-Description: Integrates the jQuery IME language plugin in comment and TinyMCE.
+Description: TypeItLocal
 Version: 0.1
 Author: Siddharth Ashok
 Author URI: http://siddharthashok.com/
@@ -44,7 +44,7 @@ wp_enqueue_script( 'jquery_ime_inputmedhods', plugins_url( '/src/jquery.ime.inpu
 
 ?>
 <script type="text/javascript">
-	
+
 
 jQuery(function ($) {
 	$("#comment").ime();
@@ -61,7 +61,7 @@ jQuery(function ($) {
 
 </script>
 
-<?php 
+<?php
 }
 
 add_action ( 'comment_form', 'say_hello');
